@@ -157,7 +157,7 @@ commentForm.addEventListener("submit", function (e) {
    e.preventDefault();
    const newCommentData = {
       id: `comment${commentsData.length}`,
-      avatar: "/assets/images/7.jpg",
+      avatar: "./assets/images/7.jpg",
       name: "Ryan", // Ім'я користувача
       commentText: commentText.value,
       reactionCount: 0,
