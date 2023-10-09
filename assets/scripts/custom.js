@@ -31,7 +31,7 @@ class Comment {
       const commentStatusDiv = document.createElement("div");
       commentStatusDiv.className = "comment-status";
       commentStatusDiv.innerHTML = `
-         <span>Curte·comente <img src="/assets/images/like.png" width="15px" height="15px" alt="Like Image"> ${reactionCount} · </span>
+         <span>Curte·comente <img src="../images/like.png" width="15px" height="15px" alt="Like Image"> ${reactionCount} · </span>
          <small><u>${timeAgo}</u></small>
       `;
       return commentStatusDiv;
@@ -61,9 +61,9 @@ const commentsData = [
    // Array of comment objects with user information
    {
       id: "comment0",
-      avatar: "/assets/images/1.gif",
-      avatarWebP: "/assets/images/1.webm",
-      avatarMp4: "/assets/images/1.mp4",
+      avatar: "../images/1.gif",
+      avatarWebP: "../images/1.webm",
+      avatarMp4: "../images/1.mp4",
       name: "Inês",
       commentText: "Eu ganhei nada",
       reactionCount: 29,
@@ -71,8 +71,8 @@ const commentsData = [
    },
    {
       id: "comment1",
-      avatar: "/assets/images/4.jpg",
-      avatarWebP: "/assets/images/4.webp",
+      avatar: "../images/4.jpg",
+      avatarWebP: "../images/4.webp",
       name: "FernandoPessoa",
       commentText: "Eu gostei essas promoções",
       reactionCount: 9,
