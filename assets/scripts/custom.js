@@ -177,10 +177,10 @@ function createBox() {
 
    // Create inner divs with classes and images
    const innerDivs = [
-      { className: 'caja_tapa', imgSrc: '/assets/images/box-top.png', imgAlt: 'Image of the top part of the box' },
-      { className: 'caja_trasera', imgSrc: '/assets/images/box-ins.png', imgAlt: 'Image of the inside' },
-      { className: 'caja_gift', imgSrc: '/assets/images/phone-box.webp', imgAlt: 'Image of the phone box' },
-      { className: 'caja', imgSrc: '/assets/images/box-bottom.png', imgAlt: 'Image of the bottom part of the box' }
+      { className: 'caja_tapa', imgSrc: './assets/images/box-top.png', imgAlt: 'Image of the top part of the box' },
+      { className: 'caja_trasera', imgSrc: './assets/images/box-ins.png', imgAlt: 'Image of the inside' },
+      { className: 'caja_gift', imgSrc: './assets/images/phone-box.webp', imgAlt: 'Image of the phone box' },
+      { className: 'caja', imgSrc: './assets/images/box-bottom.png', imgAlt: 'Image of the bottom part of the box' }
    ];
 
    innerDivs.forEach((innerDiv) => {
